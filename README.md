@@ -26,30 +26,6 @@ A powerful AI chatbot that reads, understands, and answers questions from upload
 
 ---
 
-## 📁 Project Structure
-
-rag-chatbot/
-│
-├── rag-backend/
-│ ├── app/
-│ │ ├── api/
-│ │ │ └── routes.py # API endpoints (upload, ask)
-│ │ ├── core/
-│ │ │ ├── loader.py # Load & split PDFs
-│ │ │ ├── embedder.py # Embeddings setup
-│ │ │ ├── vector_store.py # FAISS vector store
-│ │ │ └── qa.py # QA chain setup
-│ │ └── main.py # FastAPI app entrypoint
-│ └── requirements.txt
-│
-├── rag-frontend/
-│ ├── app_ui.py # Streamlit UI
-│ └── requirements.txt
-│
-├── docs/ # Uploaded PDFs
-├── vector_store/ # FAISS index storage
-├── README.md # You’re reading it :)
-└── .gitignore
 
 # 🧑‍💻 Getting Started (Local Development)
 
